@@ -1,0 +1,11 @@
+# mod_rewrite starts here
+RewriteEngine On
+
+# this condition ensures that the Rule does not apply to folders
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# this condition ensures that the Rule will not run if the specified file w/ .html extension does not exist
+RewriteCond %{REQUEST_FILENAME}\.html -f
+
+# this rule removes the .html extension from the URL
+RewriteRule ^(.*)$ $1.html [NC,L]

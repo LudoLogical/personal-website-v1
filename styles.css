@@ -1,0 +1,124 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #111111;
+    color: #444444;
+    text-align: left;
+    font-family: 'Muli','Roboto',sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    margin: 0 auto;
+    color: #888888;
+}
+
+#content h2 {
+    text-align: center;
+}
+
+a, a:visited {
+    color: #444444;
+    text-decoration: none;
+}
+
+h2 a, h2 a:visited {
+    background-color: #222222;
+    padding: 10px;
+    color: #888888;
+    outline-offset: -2px;
+    display: inline-block;
+}
+
+#content a, #content a:visited {
+    color: #888888;
+}
+
+p {
+    font-size: 1em;
+}
+
+nav {
+    text-align: center;
+    font-size: 1.25em;
+}
+
+table {
+    border-spacing: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+img {
+    width: 150px;
+}
+
+#container {
+    position: absolute;
+    padding: 50px 0 50px 0;
+    top: 0;
+    width: calc(100%);
+    height: calc(100% - 100px);
+    display: table;
+    vertical-align: middle;
+}
+
+
+
+#inner {
+    display: table-cell;
+    vertical-align: middle;
+    margin: 50% 0 50% 0;
+}
+
+#content {
+    margin-top: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.navbox {
+    position: relative;
+    display: inline-block;
+    padding: 0 10px;    
+}
+
+.navbox .wall {
+    position: absolute;
+    left: 5%;
+    top: calc(2em + 2px);
+    background-color: yellow;
+    width: 90%;
+    height: 2px;
+    z-index: -1;
+    display: none;
+}
+
+.navbox p {
+    margin: 0;
+    padding: 0.5em 0;
+}
+
+.left {
+    text-align: center;
+}
+
+.right {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.inlinelink {
+    margin: 5px;
+}
+
+.centered {
+    text-align: center;
+}
+
+#copyright {
+    margin-top: 20px;
+    text-align: center;
+}

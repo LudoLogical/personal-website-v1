@@ -1,0 +1,24 @@
+<div id="content">
+    <div class="centered">
+        <h2>~</h2>
+        <h2>
+            <a id="playerhead" class="inlinelink">Player</a>
+            <a id="pdfhead" class="inlinelink">PDF</a>
+            <a id="musescorehead" class="inlinelink">MuseScore</a>
+        </h2>
+        <div id="segments">
+            <div id="player" class="segment">
+                <script>fermataSettings.margin = "25px auto 20px auto";</script>
+                <script>newFermata("fermataplayer","audio/~.mp3","~","~");</script>
+            </div>
+            <div id="pdf" class="segment" style="display:none;">
+                <embed src="pdf/~.pdf" width="100%" height="400" />
+            </div>
+            <div id="musescore" class="segment" style="display:none;">
+                <h2>
+                    <a class="inlinelink" href="musescore/~.mscz" download>Download</a>
+                </h2>
+            </div>
+        </div>
+    </div>
+</div>

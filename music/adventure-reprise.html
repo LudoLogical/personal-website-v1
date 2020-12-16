@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Adventure! Reprise | Daniel DeAnda</title>
+        <link href="https://fonts.googleapis.com/css?family=Muli|Roboto" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+        <link type="text/css" rel="stylesheet" href="../styles.css"/>
+        <link rel="shortcut icon" href="../favicon.ico">
+        <script src="../js/fermata.js"></script>
+    </head>
+    <body>
+        <div id="container"><div id="inner">
+            <div id="centralizer"></div>
+            <h1>Adventure! Reprise</h1>
+            <nav>
+                <div class="navbox">
+                    <div class="wall"></div>
+                    <a href="http://danieldeanda.tech/"><p>Main</p></a>
+                </div>
+                <div class="navbox">
+                    <div class="wall"></div>
+                    <a href="../about"><p>About</p></a>
+                </div>
+                <div class="navbox">
+                    <div class="wall"></div>
+                    <a href="Resume.docx" download><p>Résumé</p></a>
+                </div>
+                <div class="navbox">
+                    <div class="wall"></div>
+                    <a href="../contact"><p>Contact</p></a>
+                </div>
+            </nav>
+            <div id="content">
+                <div class="centered">
+                    <h2>An original work for various synthesizers.</h2>
+                    <h2>
+                        <a id="playerhead" class="inlinelink">Player</a>
+                        <a id="pdfhead" class="inlinelink">PDF</a>
+                        <a id="musescorehead" class="inlinelink">MuseScore</a>
+                    </h2>
+                    <div id="segments">
+                        <div id="player" class="segment">
+                            <script>fermataSettings.margin = "25px auto 20px auto";</script>
+                            <script>newFermata("fermataplayer","audio/adventure-reprise.mp3","Adventure! Reprise","Daniel DeAnda // I Can See the Universe");</script>
+                        </div>
+                        <div id="pdf" class="segment" style="display:none;">
+                            <embed src="pdf/adventure-reprise.pdf" width="100%" height="400" />
+                        </div>
+                        <div id="musescore" class="segment" style="display:none;">
+                            <h2>
+                                <a class="inlinelink" href="musescore/adventure-reprise.mscz" download>Download</a>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div></div>
+        <script src="../js/dynamicnav.js"></script>
+        <script src="../js/centralizer.js"></script>
+        <script src="../js/segments.js"></script>
+    </body>
+</html>
