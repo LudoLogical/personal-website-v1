@@ -36,7 +36,7 @@ def build(name, contents, fname, is_standard):
 
     if is_standard:
 
-        dest_name = "out/"
+        dest_name = "../"
 
         b_file = open("front-standard.html")
         e_file = open("back-standard.html")
@@ -49,7 +49,7 @@ def build(name, contents, fname, is_standard):
 
     else:
 
-        dest_name = "out/music/"
+        dest_name = "../composition/"
 
         b_file = open("front-music.html")
         e_file = open("back-music.html")
